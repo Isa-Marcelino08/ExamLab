@@ -1,0 +1,295 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6f0dc;
+}
+
+.login {
+  display: flex;
+  width: 1500px;
+  height: 600px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.parteEsquerda {
+  flex: 1;
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.parteDireita h1 {
+  position: relative;
+  bottom: 20%;
+  font-size: 40px;
+  color: #030303;
+  z-index: 3;
+  font-family: "Figtree", sans-serif;
+}
+
+.parteEsquerda img {
+  width: 110%;
+  z-index: 2;
+}
+
+/* Lado direito */
+.parteDireita {
+  flex: 1;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parteDireita h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: #1f2937;
+  z-index: 2;
+  font-family: "Figtree", sans-serif;
+}
+
+.parteDireita p {
+  margin-top: -30px;
+  margin-bottom: 15px;
+  color: #6b7280;
+  font-size: 20px;
+   z-index: 3;
+   font-family: "Figtree", sans-serif;
+}
+
+.parteDireita form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.parteDireita input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Botão de login */
+.botaoLogin {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  text-decoration:none ;
+}
+
+.botaoLogin button {
+  background: #8fdc9d;
+  color: #f7f9fc;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  transition: 0.3s;
+  list-style-type: none;
+   text-decoration:none ;
+}
+
+button, 
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+/* CADASTRO */
+
+
+
+#tela3 .CadastroProduto {
+  display: flex; /* coloca os filhos lado a lado */
+  width: 900px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.parteEsquerdaCad {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parteEsquerdaCad h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.parteEsquerdaCad h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: #1f2937;
+  z-index: 2;
+  font-family: "Figtree", sans-serif;
+}
+
+.parteEsquerdaCad p {
+margin-top: -30px;
+  margin-bottom: 15px;
+  color: #6b7280;
+  font-size: 20px;
+   z-index: 3;
+   font-family: "Figtree", sans-serif;
+}
+
+.parteEsquerdaCad form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.parteEsquerdaCad input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.botaoCad {
+ background: #8fdc9d;
+  color: #f7f9fc;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  transition: 0.3s;
+  list-style-type: none;
+   text-decoration:none ;
+}
+
+.botaoCad:hover {
+  background-color: #8fdc9d;
+}
+
+.parteDireitoCad {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0f7e9;
+}
+
+.parteDireitoCad img {
+  width: 110%;
+  z-index: 2;
+}
+
+
+/* HOME */
+
+header {
+    display: flex;
+    background-color: #8fdc9d; /* verde suave */
+  
+}
+
+.Nav img {
+    height: 50px;
+}
+
+.Nav {
+  background-color: #69da83; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+}
+/* .logout {
+    background-color: #dae1db; 
+    border: none;
+    paddingpx;
+    cursor: pointer;
+    width: 70px;
+} */
+
+/* .Nav .logout {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+} */
+
+/* Imagem de fundo e título */
+.imagemfundo {
+    background-image: url('https://i.pinimg.com/736x/61/b8/9e/61b89e746b1d7ddada5d60711faf2c87.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.imagemfundo h1 {
+    color: white;
+    padding: 15px 25px;
+    width: 200vw;
+    font-size: 2em;
+    text-align: center;
+}
+
+.CadastroProduto, .Estoque {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.produtoImg, .estoqueImg {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.CadastroProduto button, .Estoque button {
+    background-color: #8fdc9d;
+    border: none;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.CadastroProduto button a, .Estoque button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
